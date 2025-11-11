@@ -5,8 +5,8 @@
 	- 0.1.0a The rules herein are incomplete by nature, and focus on interactions and characteristics of cards currently within the cube. Further amendments are always possible
 - 0.0.1 Nishant's Party Box (henceforth, 'NPB') is a silly format. No rule of NPB is truly set in stone, and no interaction in NPB is truly unambiguous.
 	- 0.0.1b Player discretion will be oft noted herein, which defers to the attitude, play style, hopes and dreams of players, as long as the players reach accord. Even when not stated, player discretion may override any rule written herein or on card text.
-- 0.0.2 Party Box is a shared-deck ('cube') format. Cards are provided by the party box owner. 
-- 0.0.3 Players start the game with 40 life. Other starting life totals may be played, upon player discretion.
+- 0.0.2 Party Box is a shared-deck ('cube', 'box') format. Cards are provided by the party box owner. 
+- 0.0.3 Players start the game with 20 life. Other starting life totals may be played, upon player discretion.
 - 0.0.4 Players draw five cards as their starting hand. Players may not mulligan. 
 	- 0.1.4a Reasonable levels of commiseration regarding card quality of one's opening hand is permissible. However, players deemed to be complaining too much by other players may be ejected. 
 
@@ -40,7 +40,8 @@
 	- 2.0.2a Mana and mana-adjacent resources from other games can be paid in generic mana if no color is indicated.
 	- 2.0.2b If a color is indicated, and if such color is differentiated in the source game, upon player discretion, the closest color in Magic's five color system must be used.
 - 2.0.3 BUB Card types are based on the timing rules and restrictions of playing the card in the source game. In general, defer to mechanical similarity to Magic mechanics, rather than aesthetic similarity. (For example, Pokémon, YuGiOh monsters, and Lorcana characters are all creatures.)
-	- 2.0.3a Card subtypes are defer to player discretion.
+	- 2.0.3a Card supertypes and subtypes defer to player discretion.
+	- 2.0.4a Cards are nonlegendary by default. Upon player discretion, cards considered 'legendary' or one of a kind in their source material may be considered legendary.
 ## 2.1 Pokémon TCG
 
 - 2.1.0 Pokémon cards have a mana cost of 2 generic mana. 
@@ -85,8 +86,11 @@
 	- 2.3.2b If a character would be 'banished' by a Lorcana ability, it is exiled. However, if a ability of a Lorcana card checks whether a card would be 'banished', this refers to that card would be destroyed or exiled. 
 	- 2.3.2c Lorcana 'Evasive' is considered flying. 
 	- 2.3.2d Lorcana 'Ward' is considered hexproof. 
+	- 2.3.2d Lorcana 'Rush' is considered haste. 
 - 2.3.2 Lorcana actions are considered sorcery spells.
-- 2.3.3 Lorcana cards' 'exerted' state is considered being tapped. Their 'ready' state is considered being untapped.
+- 2.3.4 Lorcana items are considered artifacts.
+	- 2.3.4a References to item cards on effects and abilities refer to both artifacts and enchantments. 
+- 2.3.5 Lorcana cards' 'exerted' state is considered being tapped. Their 'ready' state is considered being untapped.
 # 3 Miscellany and Philosophy
 
 - 3.0.0 If a card is produced from outside the game, as the result of Booster Tutor or otherwise, upon player discretion, its owner has the right to sign the card and permanently include it in the cube. 
@@ -232,6 +236,12 @@
 	- m: u
 	- t: Creature - Wizard
 	- p/t: 1/5
+10. Big Brother (Custom)
+	1. m: b
+	2. t: Legendary Creature - Horror
+	3. o: 
+		- Whenever a player says the name of a permanent card that's not in play, they lose 2 life. (_The player does not have to be referring to the card. For example, if they say 'Desert', talking about 'Sahara Desert', they still take damage if there is no card named Desert in play._ )
+	4. p/t: 0/4
 ## 4.2 Noncreature Permanents
 
 1. Mirror Force (YuGiOh)
@@ -269,19 +279,25 @@
 	- o:
 		- Set (_This card must be cast face down as a colorless Trap artifact. You may only set one card per turn. You may turn a face down Trap card face up any time you could cast an instant, but not on the same turn you set it._)
 		- You may only turn ~ face up in response to a player forgetting a trigger thay control or attempting to commit an illegal game action.
-		- When ~ is turned face up, exile all nonland permanents that player controls.
+		- When ~ is turned face up, exile all nonland permanents that player controls. Then, exile ~.
 6. Immaculate Bluff (Custom)
 	- m: 2
 	- t: Artifact Enchantment - Continuous Trap  
 	- o:
 		- Set (_This card must be cast face down as a colorless Trap artifact. You may only set one card per turn. You may turn a face down Trap card face up any time you could cast an instant, but not on the same turn you set it._)
 		- When ~ is turned face up, it does nothing.
-7. Modeling Clay (The Binding of Isaac: Four Souls)
+7. Ban Hammer (Custom)
+	- m: 2
+	- t: Artifact Enchantment - Trap  
+	- o:
+		- Set (_This card must be cast face down as a colorless Trap artifact. You may only set one card per turn. You may turn a face down Trap card face up any time you could cast an instant, but not on the same turn you set it._)
+		- You may only turn ~ face up in response to a player casting a spell card banned in any format. (_A banned card is not the same as a card that is not legal. A banned card must be declared banned by a format's governing authority. You must be able to prove that a card was banned in this way._)
+		- When ~ is turned face up, exile that spell. Then, each player besides that spell's controller draws two cards. Then, exile ~.
+8. Modeling Clay (The Binding of Isaac: Four Souls)
 	- m: 2
 	- t: Artifact
 	- o:
 		- T: ~ becomes a copy of target enchantment or artifact without indestructible.
-8. 3
 ## 4.3 Instants and Sorceries
 1. Invention Contest (Terraforming Mars)
 	- m: 2
