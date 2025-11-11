@@ -156,6 +156,18 @@
 	- o:
 		- T: Add C.
 		- T: Add one mana of any color. Use this mana only to cast creature spells.
+12. Wheat (Catan)
+	- m: 0
+	- t: Artifact Land - Food
+	- o:
+		- T: Add W.
+		- 2, T, Sacrifice ~: Gain 3 life.
+		- Tradeable _(If ~ is untapped, you may agree with another player to trade it for an untapped land of their choice that they control.)_
+13. Trivia Card (Trivial Pursuit)
+	- m: 0
+	- t: Land
+	- o: 
+		- ( _Each trivia question on a Trivial Pursuit trivia card indicates a mana ability that will add one mana of that color, if ~ is tapped, if its controller can correctly answer the associated trivia question. Correspondence to Magic: The Gathering mana colors is up to player discretion. Players may use the same mana ability across turns, even if they have answered the question before. While checking the answer, an opponent must check the reverse side of the card, rather than its controller, as to not allow the controller to glean answers to other mana abilities._ )
 ## 4.1 Creatures
 
 1. Diglett (Pokémon)
@@ -299,43 +311,48 @@
 	- o:
 		- T: ~ becomes a copy of target enchantment or artifact without indestructible.
 ## 4.3 Instants and Sorceries
-1. Invention Contest (Terraforming Mars)
+1. Just Say No! (Monopoly Deal)
+	- m: 2
+	- t: Instant
+	- o: 
+		- Counter target spell that targets you, or a permanent or spell you control. 
+2. Invention Contest (Terraforming Mars)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Look at the top three cards of your library. Put one of those cards into your hand, and put the rest in your graveyard.
-2. Copycat (Pokémon)
+3. Copycat (Pokémon)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Shuffle your hand into your library. Then, choose an opponent. Draw a card for each card in that opponent's hand.
-3. Cheren (Pokémon)
+4. Cheren (Pokémon)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Draw three cards.
-4. Marnie (Pokémon)
+5. Marnie (Pokémon)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Look at the top seven cards of your library. You may reveal a creature card from among those cards and put it in your hand. Shuffle the rest of the cards into your library.
-5. Lillie's Full Force (Pokémon)
+6. Lillie's Full Force (Pokémon)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Draw four cards.
 		- On your end step, if you have three or more cards in your hand, discard cards until you have two cards in hand.
-6. Great Ball (Pokémon)
+7. Great Ball (Pokémon)
 	- m: 2
 	- t: Sorcery
 	- o: 
 		- Each player puts each card in their hand on the bottom library in any order. Then, each opponent draws four cards and you draw five cards.
-7. 2 Cents! (Binding of Isaac: Four Souls)
+8. 2 Cents! (Binding of Isaac: Four Souls)
 	- m: 2
 	- t: Sorcery
 	- o:
 		- Create two Treasure tokens. (_It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”_)
-8. Birra / Beer (Bang!)
+9. Birra / Beer (Bang!)
 	- m: 2
 	- t: Instant
 	- o: 
