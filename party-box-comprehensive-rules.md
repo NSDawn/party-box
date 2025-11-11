@@ -2,7 +2,7 @@
 ## 0.0 General
 
 - 0.0.0 All rules listed here are deviations from and clarifications of the comprehensive rules of Magic as they apply to multiplayer games. Where unspecified herein, refer to those rules.
-	- 0.1.0a The rules herein are incomplete by nature, and focus on interactions and characteristics of cards currently within the cube. Further amendments are always possible
+	- 0.1.0a The rules herein are incomplete by nature, and focus on interactions and characteristics of cards currently within the cube. Further amendments are always possible.
 - 0.0.1 Nishant's Party Box (henceforth, 'NPB') is a silly format. No rule of NPB is truly set in stone, and no interaction in NPB is truly unambiguous.
 	- 0.0.1b Player discretion will be oft noted herein, which defers to the attitude, play style, hopes and dreams of players, as long as the players reach accord. Even when not stated, player discretion may override any rule written herein or on card text.
 - 0.0.2 Party Box is a shared-deck ('cube', 'box') format. Cards are provided by the party box owner. 
@@ -249,11 +249,11 @@
 	- t: Creature - Wizard
 	- p/t: 1/5
 10. Big Brother (Custom)
-	1. m: b
-	2. t: Legendary Creature - Horror
-	3. o: 
+	- m: b
+	- t: Legendary Creature - Horror
+	- o: 
 		- Whenever a player says the name of a permanent card that's not in play, they lose 2 life. (_The player does not have to be referring to the card. For example, if they say 'Desert', talking about 'Sahara Desert', they still take damage if there is no card named Desert in play._ )
-	4. p/t: 0/4
+	- p/t: 0/4
 ## 4.2 Noncreature Permanents
 
 1. Mirror Force (YuGiOh)
