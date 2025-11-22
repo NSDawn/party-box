@@ -99,12 +99,12 @@
 **Not all cards listed here are in the cube!!**
 ## 4.0 Lands 
 
-1. Totally Lost? Let us help (WOTC)
+1. Totally Lost? Let us help (Modified)
 	- m: 0
 	- t: Land
 	- o:
 		- T: Add zero mana of any color.
-2. On Your Turn (WOTC)
+2. On Your Turn (Modified)
 	- m: 0
 	- t: Land
 	- o:
@@ -244,7 +244,7 @@
 	- o: 
 		- When ~ enters, destroy up to one creature an opponent's controls with 0 power or less. 
 	- p/t: 1/2
-9. Wizards (WOTC)
+9. Wizards (Modified)
 	- m: u
 	- t: Creature - Wizard
 	- p/t: 1/5
@@ -253,7 +253,37 @@
 	- t: Legendary Creature - Horror
 	- o: 
 		- Whenever a player says the name of a permanent card that's not in play, they lose 2 life. (_The player does not have to be referring to the card. For example, if they say 'Desert', talking about 'Sahara Desert', they still take damage if there is no card named Desert in play._ )
-	- p/t: 0/4
+	- p/t: 0/3
+11. Stoat (Inscryption)
+	- m: 0
+	- o: 
+		- As an additional cost to cast this spell, sacrifice a creature.
+	- p/t: 1/3
+12. Socialist Reformer (Custom)
+	- m: 1rr
+	- t: Creature - Human Rebel
+	- o:
+		- While an opponent controls a Treasure token, ~ has haste.
+		- When ~ attacks, shuffle each player's hand into a pile. Then, divide the cards face down equally to each player's hand. Exile any cards that cannot be evenly divided in this way. 
+	- p/t: 3/1
+13. Harbinger of the Seats (Custom)
+	- m: 1uu
+	- t: Creature - Merfolk Wizard
+	- o:
+		- Nonbasic players are Islands. (_Players may self-identify as basic or nonbasic. Land players may tap themselves for mana, after which they must clearly indicate by leaning 90 degrees until they are untapped. If a land player is destroyed, they lose the game._)
+	- p/t: 2/2
+14. Elephant (MTG Token)
+	- m: 2
+	- c: g
+	- t: Creature - Elephant
+	- p/t: 3/3
+15. Dinosaur Dragon (MTG Token)
+	- m: 2
+	- c: g
+	- t: Creature - Dinosaur Dragon
+	- o:
+		- Flying
+	- p/t: 4/4
 ## 4.2 Noncreature Permanents
 
 1. Mirror Force (YuGiOh)
@@ -291,7 +321,7 @@
 	- o:
 		- Set (_This card must be cast face down as a colorless Trap artifact. You may only set one card per turn. You may turn a face down Trap card face up any time you could cast an instant, but not on the same turn you set it._)
 		- You may only turn ~ face up in response to a player forgetting a trigger thay control or attempting to commit an illegal game action.
-		- When ~ is turned face up, exile all nonland permanents that player controls. Then, exile ~.
+		- When ~ is turned face up, exile all nonland permanents that player controls. Then, sacrifice ~.
 6. Immaculate Bluff (Custom)
 	- m: 2
 	- t: Artifact Enchantment - Continuous Trap  
